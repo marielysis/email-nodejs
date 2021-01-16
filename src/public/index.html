@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form TeamAP</title>
+    <link rel="stylesheet" href="./estilosForm.css">
+</head>
+<body>
+    <div class="container-bads">
+        <form action="/send-email"  class="form" id="dvEnviar" method="POST">
+        
+                    <h2 class="Ttd">Datos Asesoría</h2>
+
+                    <!-- Aquí quité tablas y coloque divs con la clase campo -->
+                    <div class="campo">
+                        <input type="text" name="name" /><label>Nombre y Apellido</label>
+                    </div>
+                    
+                    
+                    <div class="campo">
+                        <input type="email" name="email" /><label>Correo electrónico</label>
+                    </div>
+
+                    <div class="campo">
+                        <input type="text" name="phone" /><label>Número de teléfono</label>
+                    </div>
+                    <div class="campo">
+                        <textarea name="textarea" rows="10" cols="50"></textarea><label>Mensaje</label>
+                    </div>
+
+                    <button class="boton">
+                        Enviar
+                    </button>                
+
+        </form>
+    </div>
+</body>
+</html>
